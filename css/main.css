@@ -92,3 +92,320 @@ body {
     background: #DDDEE3;
 }
 
+/* 主内容区的样式 */
+
+#main-content .home-container {
+	position: relative;
+	zoom: 1;
+	overflow: hidden;
+	width: 1025px;
+	margin:0px auto;
+	margin-top:17px
+}
+
+#main-content #home-news {
+	float: left;
+	margin-right: 40px;
+	width: 550px;
+	
+}
+
+#main-content #home-notice {
+	float: left;
+	width: 435px;
+}
+
+#main-content #home-student {
+	float: left;
+	margin-right: 40px;
+	width: 550px;
+}
+
+#main-content #home-tsr {
+	float: left;
+	width: 435px;
+}
+
+#main-content #home-activity {
+	float: left;
+	margin-right: 40px;
+	width: 550px;
+}
+
+#main-content #home-qlink {
+	float: left;
+	width: 435px;
+}
+
+
+
+#main-content #home-gallery {
+	margin-bottom: 40px;
+	clear: both
+}
+
+#sidebox {
+	float: left;
+	width: 218px
+}
+
+#mcontent {
+	margin-left: 253px;
+	width: auto
+}
+
+#item-banner {
+	margin-bottom: 26px;
+	text-align: center
+}
+
+.panel {
+	position: relative;
+	zoom: 1;
+	margin-bottom: 5px;
+	background-color:white;
+}
+
+.panel .panel-head {
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+	background: #fff url(../images/panel-hr.png) left bottom repeat-x;
+}
+
+.panel .panel-head.s2 {
+	background-image: url(../images/panel-hr2.png);
+}
+
+.panel .panel-head .panel-head-title {
+	padding-left: 25px;
+	padding-bottom: 10px;
+	background: #FFF url(../images/panel-head-img.png) no-repeat;
+	background-position:0 2px;
+	font-size: 18px;
+	font-weight: 400;
+	color: #093B96;
+	line-height: normal
+}
+
+.panel .panel-head.s2 .panel2-head-title {
+	padding-left: 25px;
+	padding-bottom: 10px;
+	background: url(../images/panel-head-img2.png) no-repeat;
+	background-position:0 2px;
+	font-size: 18px;
+	font-weight: 400;
+	color: #093B96;
+	line-height: normal
+
+}
+
+.panel .panel-body {
+	font-size: 14px;
+	background-color:white;
+}
+
+.panel .panel-more-link {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	color: #888;
+	font-size: 12px
+}
+
+.panel .panel-more-link:hover {
+	color: #093B96
+}
+
+.home-news-list {
+	margin-bottom: 0;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 20px;
+}
+
+.home-news-list li {
+	margin-bottom: 10px; 
+}
+
+.home-news-list li a {
+	display: block;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	font-size: 18px;
+	color: #333;
+	font-family:sans-serif;
+}
+
+.home-news-list li a:hover {
+	color: #000
+}
+
+
+.home-news-list li p {
+	font-size: 12px;
+	color: #888;
+}
+
+.home-activity-list {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.home-activity-list li {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	height: 49px;
+}
+
+.home-activity-list .hal-date {
+	float: left;
+	margin-right: 15px;
+	padding-right: 15px;
+	width: 49px;
+	border-right: 2px solid #c26c07;
+	text-align: center
+}
+
+.home-activity-list .hal-date .y {
+	display: none;
+	background-color: #093B96;
+	font-size: 12px;
+	color: #fff;
+	line-height: 20px
+}
+
+.home-activity-list .hal-date .hd {
+	font-size: 16px;
+	color: #093B96
+}
+
+.home-activity-list .hal-title {
+	display: block;
+	margin-bottom: 5px;
+	font-size: 16px;
+	color: #454545;
+	font-family:sans-serif;
+}
+
+.home-activity-list .hal-title:hover {
+	color: #000
+}
+
+.home-activity-list .hal-inf {
+	margin-left: 83px;
+	font-size: 12px;
+	color: #454545;
+}
+
+#home-activity .hap-hlink {
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 20px;
+}
+
+#home-activity .hap-hlink .haph-title {
+	color: #093B96;
+}
+
+#home-activity .hap-hlink .haph-more {
+	float: right;
+	color: #093B96;
+	font-size: 12px;
+}
+
+.home-notice-list {
+	margin-left: 20px;
+	padding-bottom: 20px;
+}
+
+.home-notice-list li {
+	padding: 5px 0 5px 0;
+	list-style-type: disc;
+}
+
+.home-notice-list a {
+	font-size: 18px;
+	color: #868686;
+	font-family:STSong,SimSun, NSimSun,FangSong;
+}
+
+.home-notice-list li.new,
+.home-notice-list li.new a {
+	color: red;
+}
+
+.home-notice-list a:hover {
+	color: #000
+}
+
+.home-notice-list .date {
+	color: #868686
+}
+.home-notice-list li.new .date {
+	color: red;
+}
+
+/*-----ç§‘è‹‘å­¦å­----*/
+.home-student-img {
+	float: left;
+	display: block;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 5px;
+}
+
+.home-student-list {
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-bottom: 20px;
+}
+
+.home-student-list li {
+	margin-bottom: 10px; 
+}
+
+.home-student-list li a {
+	display: block;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	font-size: 18px;
+	color: #333;
+	font-family:sans-serif;
+}
+
+.home-student-list li a:hover {
+	color: #000
+}
+
+.home-student-list li p {
+	font-size: 12px;
+	color: #888;
+}
+/* 滚动图片的样式 */
+.gallery-scroll {
+    overflow: hidden;
+    height: 132px;
+}
+
+/*---------------------------ztlm---------------------------*/
+.zb_g{ width:1025px; margin:0px auto; margin-top:36px}
+
+.zb_h h1{ font-family:"黑体"; font-size:20px; color:#014099;}
+
+.zb_k{ margin-top:20px}
+.gallery-scroll img {
+    width:198px;
+    height: 132px;
+}
+.gallery-scroll ul {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+
+.gallery-scroll ul li {
+    float:left;
+    margin-right: 9px;
+}
